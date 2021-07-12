@@ -2,7 +2,7 @@ pipeline {
     agent { 
         dockerfile {
         filename 'Dockerfile'   
-        label 'slave'
+        label 'slave1'
         args '-v /tmp:/tmp'
     } 
      }
